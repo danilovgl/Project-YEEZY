@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Compre seu YEEZY Slide</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo" src="./assents/kisspng-adidas-originals-logo-clip-art-logo-adidas-5b1e38b896a8f8.9565737615287072566171.png" alt="adidas-logo">
+            <nav>
+                <ul id="menu-list">
+                    <li class="nav-li">
+                        <a class="nav-link" href="#">Sneakers</a class="nav-link">
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-link"  href="#">Acessóriso</a class="nav-link">
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-link" href="#">Camisetas</a class="nav-link">
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-link" href="#">Sobre</a class="nav-link">
+                    </li>
+                </ul>
+            </nav>
+            <img src="./assents/menu.png" class="menu-icon" alt="botão-menu" onclick="showMenu()" >
+        </div>
+        <div class="row">
+            <div class="column-1">
+                <h2>Yeezy Slide Pure</h2>
+                <h3>O adidas Yeezy Slide 'Pure' destaca um acabamento bege</h3>
+                <p>By kanye West "Ye"</p>
+                <h4>899,00</h4>
+                <button class="buy">Compra Agora <img src="./assents/arrow.png" alt="seta"></button>
+            </div>
+
+            <div class="column-2">
+                <img class="yeezy-slide" src="/assents/cc997fc47fdd509d3ecaa539fb4452af-removebg-preview.png" alt="yeezy-slide">
+
+                <div class="color-box"></div>
+                <button class="add-cart"><img src="/assents/add.png" alt="adicionar-ao-carrinho"></button>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="/assents/fb.png" alt="facebook">
+            <img src="/assents/ig.png" alt="instagram">
+            <img src="/assents/tw.png" alt="twitter">
+
+
+        </div>
+    </div>
+</body>
+
+
+<script>
+const menulist = document.getElementById("menu-list")
+menulist.style.maxHeight = "0px"
+
+
+function showMenu(){
+    if(menulist.style.maxHeight == "0px"){
+        menulist.style.maxHeight = "120px"
+    } else {
+        menulist.style.maxHeight = "0px"
+    }
+    
+}
+
+
+</script>
+
+</html>
