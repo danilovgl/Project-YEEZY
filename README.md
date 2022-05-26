@@ -16,7 +16,7 @@
 - [x] CSS
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Agradecemos à seguinte pessoa que contribuiu para este projeto:
 
 <table>
   <tr>
