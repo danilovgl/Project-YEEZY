@@ -3,6 +3,8 @@
 <img src="./ASSENTS/1.png" alt="print">
 <img src="./ASSENTS/2.png" alt="print-cell">
 
+Link do Projeto: <a href="https://yezzyproject.netlify.app/">
+
 > Resultado do Projeto Yeezy.
 
 
@@ -14,6 +16,7 @@
 
 - [x] HTML
 - [x] CSS
+- [x] JavaScript
 ## 🤝 Colaboradores
 
 Agradecemos à seguinte pessoa que contribuiu para este projeto:
